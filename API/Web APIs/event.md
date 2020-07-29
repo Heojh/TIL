@@ -1,4 +1,4 @@
-Web APIs > Event
+Web API > Event
 -
 
 [Capturing and Bubbling phases]

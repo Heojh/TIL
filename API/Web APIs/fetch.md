@@ -1,4 +1,4 @@
-Web APIs > Fetch
+Web API > Fetch
 -
 
 ####fetch('path').then(func)

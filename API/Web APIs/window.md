@@ -1,4 +1,4 @@
-Web APIs > Window
+Web API > Window
 -
 
 [Size]
