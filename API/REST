@@ -1,11 +1,11 @@
 REST
 -
 
-####Wiki :
+#### Wiki :
 a way of providing interoperability between computer systems on the internet.
 👉 인터넷 상의 컴퓨터 시스템간에 상호 운용성을 제공하는 방법.
 
-####History :
+#### History :
 **1991 | WEB**
 Q : 어떻게 인터넷에서 정보를 공유할 건인가?
 A : 정보들을 하이퍼텍스트로 연결한다.
@@ -26,7 +26,7 @@ Roy T.Fielding, 박사 논문으로 발표
 
 ---
 
-###SOAP & REST
+### SOAP & REST
 **1998 | XML-RPC(1998)**
 👉 Microsoft에서 발표한 원격으로 다른 시스템의 메소드를 호출 할 수 있는 프로토콜이며 추후 SOAP라고 불린다.
 
@@ -45,16 +45,16 @@ SOAP | REST
 
 ---
 
-###What is REST API?
+### What is REST API?
 👉 REST 아키텍쳐 스타일을 따르는 API
 
-###What is REST?
+### What is REST?
 👉 분산 하이퍼미디어 시스템(ex: WEB)을 위한 아키텍쳐 스타일
 
-###What is Architecture style?
+### What is Architecture style?
 👉 제약조건의 집합
 
-###REST를 구성하는 스타일
+### REST를 구성하는 스타일
 - client-server
 - stateless
 - cache
@@ -63,7 +63,7 @@ SOAP | REST
 - code-on-demand (optional) 👉 서버에서 코드를 클라이언트로 보내서 실행할 수 있어야 한다.(=JavaScript)
 ❗ 대체로 오늘날의 REST API는 잘 지켜지고 있는데, 그 이유는 HTTP만 잘 따라도 uniform interface를 제외한 조건들은 충족되기 때문이다.
 
-###Uniform Interface의 제약조건
+### Uniform Interface의 제약조건
 - identification resources
   - 리소스가 URI로 식별되면 된다.
 - manipulation of resource through representations
@@ -73,7 +73,7 @@ SOAP | REST
 - **hypermedia as the engine of application state (HATEOAS)**
   - 애플리케이션의 상태는 Hyperlink를 이용해 전이되어야 한다.
 
-###Why need a uniform interface?
+### Why need a uniform interface?
 👉 독립적 진화를 위해서
  - 서버와 클라이언트가 각각 독립적으로 진화한다.
  - 서버의 기능이 변경되어도 클라이언트를 업데이트 할 필요가 없다.
@@ -88,7 +88,7 @@ SOAP | REST
 ❌ 모바일
 - 모바일 앱 클라이언트와 서버가 REST 아키텍쳐 스타일을 따르고 있지 않다.
 
-###REST가 웹의 독립적 진화에 도움을 주었나?
+### REST가 웹의 독립적 진화에 도움을 주었나?
 - HTTP에 지속적으로 영향을 줌
 - Host 헤더 추가
 - 길이 제한을 다루는 방법이 명시 (414 URI Too Long 등..)
@@ -97,11 +97,11 @@ SOAP | REST
 - HTTP/1.1 명세 최신판에서 REST에 대한 언급이 들어감
 - Reminder : Roy T.Fielding이 HTTP와 URI 명세의 저자 중 한명이다.
 
-###결론 : REST는 성공했는가?
+### 결론 : REST는 성공했는가?
 - REST는 웹의 독립적 진화를 위해 만들어졌다. 👉 웹은 독립적으로 진화하고 있다.
 - 성공👍
 
-###REST API는?
+### REST API는?
 - REST API는 REST 아키텍쳐 스타일을 따라야한다.
 - 오늘날 스스로 REST API라고 하는 API들의 대부분이 REST 아키텍쳐 스타일을 따르지 않는다.
 
