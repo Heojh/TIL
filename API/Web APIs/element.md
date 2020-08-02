@@ -14,5 +14,31 @@ element.getBoundingClientRect() : 요소의 사이즈나 위치에 관련된 다
 - event.client : 브라우저에서 떨어진 x, y의 거리
 - event.page : 페이지 자체에서 떨어진 x, y의 거리
 
-[Scroll]
-- element.scrollIntoView() : 선택된 요소를 브라우저 창의 보이는 영역으로 스크롤.
+[Scroll] <br />
+element.scrollIntoView() : 선택된 요소를 브라우저 창의 보이는 영역으로 스크롤. <br />
+
+element.scrollTop() : 요소안의 현재 스크롤바의 위치값을 반환.
+```
+// 현재 보고있는 브라우저의 높이
+$(window).height(); 
+
+// 현재 스크롤바의 위치 값.
+// 스크롤을 맨 위로 올리려면 $(window).scrollTop(0)을 해주면 됨.
+$(window).scrollTop();
+
+// 현재 보고 있는 브라우저의 맨 밑 바닥의 높이
+$(window).height + $(window).scrollTop();
+
+//원하는 위치까지 천천히 올라가게 하려면?
+$('html, body').animate({scrollTop: 가고싶은 위치}, 가는데 걸리는 시간);
+// ※ 1000 = 1초
+
+// document안의 상대적인 현재 위치값을 알 수 있음.
+offset();
+
+// 요소의 상단 부분에서의 거리 좌표
+offset().top;
+
+// 요소의 왼쪽에서 부터의 거리 좌표
+offset().left;
+```
