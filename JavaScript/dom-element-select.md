@@ -95,6 +95,7 @@ for(let i = o; i < selectedItem; i++) {
 
 <h4>HTML 객체 집합(object collection)을 이용한 선택</h4>
 HTML DOM에서 제공하는 객체 집합(object collection)을 이용하여 HTML요소를 선택할 수 있다.
+
 ```
 // <title> 요소를 선택함.
 const title = document.title;
