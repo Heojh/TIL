@@ -9,10 +9,10 @@ DOM 요소 선택
 5. CSS 선택자(selector)을 이용한 선택.
 6. HTML 객체 집합(object collection)을 이용한 선택.
 
-<br />
+<br>
 
 <h4>HTML 태그 이름(tag)을 이용한 선택</h4>
-getElementsTagName() <br />
+getElementsTagName() <br>
 ▶ 태그를 가지고 있는 모든 요소를 선택함으로 getElement + s
 ```
 // 모든 <li> 요소를 선택함.
@@ -24,10 +24,10 @@ for(let i = 0;, i < list; i++) {
 }
 ```
 
-<br />
+<br>
 
 <h4>아이디(id)를 이용한 선택</h4>
-getElementById() <br />
+getElementById() <br>
 ▶ 고유식별자이므로 getElement 에 s 가 붙지 않는다.
 ```
 // 아이디가 'itemId'인 요소를 선택함.
@@ -37,10 +37,10 @@ const selectedItem = document.getElementById('itemId');
 selectedItem.style.color = 'red';
 ```
 
-<br />
+<br>
 
 <h4>클래스(class)를 이용한 선택</h4>
-getElementsClassName() <br />
+getElementsClassName() <br>
 ▶ 클래스를 가지고 있는 모든 요소를 선택하므로 getElement + s
 ```
 // 클래스가 'itemClass'인 모든 요소를 선택함.
@@ -52,7 +52,7 @@ for(let i = 0; i < selectedItem; i++) {
 }
 ```
 
-<br />
+<br>
 
 <h4>name 속성을 이용한 선택</h4>
 getElementsByName()
@@ -66,11 +66,11 @@ for(let i = 0; i < selectedItem; i++) {
 }
 ```
 
-<br />
+<br>
 
 <h4>CSS 선택자(selector)를 이용한 선택</h4>
-querySelector() <br />
-- 반환객체는 한 개의 요소만 찾을 수 있으며 동일한 클래스명을 가진 객체가 있을 경우 html문서내의 첫 번째를 나타내는 요소를 반환한다. <br />
+querySelector() <br>
+- 반환객체는 한 개의 요소만 찾을 수 있으며 동일한 클래스명을 가진 객체가 있을 경우 html문서내의 첫 번째를 나타내는 요소를 반환한다. <br>
 
 querySelectorAll()
 - 해당 선택자에 해당하는 모든 요소를 가져온다.
@@ -84,9 +84,9 @@ for(let i = o; i < selectedItem; i++) {
 	selected.item(i).style.color = 'red';
 }
 ```
-▶ CSS 선택자 : 아이디, 클래스, 속성, 속성값 등 <br />
+▶ CSS 선택자 : 아이디, 클래스, 속성, 속성값 등 <br>
 
-<br />
+<br>
 
 <h4>HTML 객체 집합(object collection)을 이용한 선택</h4>
 HTML DOM에서 제공하는 객체 집합(object collection)을 이용하여 HTML요소를 선택할 수 있다.
