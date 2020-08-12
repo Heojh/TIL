@@ -23,3 +23,27 @@ console.log(answerFirstChar); // '무'
 ```
 ▶ question.charAt(1) 을 해도 되지만,<br>
 단어를 이루는 문자의 갯수가 달라질 수 있기 때문에 question.chatAt(**question.length-1**)을 사용한다.
+
+<br>
+
+<h4>String.prototype.replace()</h4>
+- replace() 메소드는 주어진 패턴에 일치하는 일부 또는 모든 부분이 교체된 새로운 문자열을 반환.<br>
+
+<h4>**Project : 끝말잇기 : 점수판**</h4>
+```
+let score = '점수 : 100';
+
+function paintScore(num) {
+    const getScore = Number(score.replace(/[^0-9]/g,'')) + num;
+    console.log(getScore); // 200
+    console.log(typeof getScore); // number
+    score = getScore >= 0 ? `점수 : ${getScore}` : `점수 : 0`;
+    console.log(typeof score); // string
+}
+
+paintScore(100); // '점수 : 200'
+paintScore(-50); // '점수 : 50'
+```
+▶ 숫자만 반환하는 정규표현식 : (/[^0-9]/g,'')<br>
+▶ 문자를 숫자로 형변환 : Number()<br>
+
