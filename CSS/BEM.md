@@ -7,8 +7,8 @@ BEM (Block, Element, Modifier)
 <br />
 
 <h4>Block</h4>
-- 독립적으로 의미가 있는 구성요소(component)를 의미.
-- 시멘틱 태그의 컨텐츠 영역을 `block`으로 간주할 수 있다.
+- 독립적으로 의미가 있는 구성요소(component)를 의미.<br />
+- 시멘틱 태그의 컨텐츠 영역을 `block`으로 간주할 수 있다.<br />
 - `block`은 클래스의 어근을 형성하고, 항상 맨 앞에 위치한다.
 
 ```
@@ -20,7 +20,7 @@ BEM (Block, Element, Modifier)
 <br />
 
 <h4>Element</h4>
-- 독립적으로는 의미가 없으며 `block`에 붙여서 사용되는 구성요소를 의미.
+- 독립적으로는 의미가 없으며 `block`에 붙여서 사용되는 구성요소를 의미.<br />
 - `element`는 `block`이 포함하고 있는 한 조각.
 
 ```
@@ -32,7 +32,7 @@ BEM (Block, Element, Modifier)
 <br />
 
 <h4>Modifier</h4>
-- `modifier`는 `block` 또는 `element`의 속성.
+- `modifier`는 `block` 또는 `element`의 속성.<br />
 - 특정 요소의 스타일을 수정해야할 필요가 있을 때 `modifier`를 활용.
 
 ```
