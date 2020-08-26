@@ -7,6 +7,7 @@ Web API > NodeList
 NodeList의 node를 index로 돌려준다. <br />
 
 <h5>**Project : Bulls and Cows**</h5>
+
 ```
 // HTML
 // 숫자 입력 버튼
@@ -18,6 +19,7 @@ NodeList의 node를 index로 돌려준다. <br />
 <button class="btn confirm">Confirm</button>
 <button class="btn delete">Delete</button>
 ```
+
 ```
 // JavaScript
 const btns = document.querySelectorAll('.btn');
