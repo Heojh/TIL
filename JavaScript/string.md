@@ -1,13 +1,14 @@
 String
 -
-- path : JavaScript reference > Standard built-in objects > String
+path : JavaScript reference > Standard built-in objects > String
 
 <br>
 
 <h4>String.prototype.charAt()</h4>
 - charAt() 메소드는 문자열에서 특정 인덱스에 위치하는 유니코드 단일 문자를 반환한다.<br>
 
-<h4>**Project : 끝말잇기**</h4>
+<h4>Project : 끝말잇기</h4>
+
 ```
 const question = '나무';
 const answer = '무리수;
@@ -29,7 +30,8 @@ console.log(answerFirstChar); // '무'
 <h4>String.prototype.replace()</h4>
 - replace() 메소드는 주어진 패턴에 일치하는 일부 또는 모든 부분이 교체된 새로운 문자열을 반환.<br>
 
-<h4>**Project : 끝말잇기 : 점수판**</h4>
+<h4>Project : 끝말잇기(점수판)</h4>
+
 ```
 let score = '점수 : 100';
 
@@ -45,5 +47,24 @@ paintScore(100); // '점수 : 200'
 paintScore(-50); // '점수 : 50'
 ```
 ▶ 숫자만 반환하는 정규표현식 : (/[^0-9]/g,'')<br>
-▶ 문자를 숫자로 형변환 : Number()<br>
+▶ 문자를 숫자로 형변환 : Number()
 
+<br />
+
+<h4>String.prototype.split()</h4>
+.split() 메소드는 String 객체를 지정한 구분자를 이용하여 여러개의 문자열로 나눈다. <br />
+
+<h4>Project : Bulls and Cows</h4>
+사용자가 누른 네자리 수(문자열)를 배열로 만들기 <br />
+
+```
+const inputNumber = "2514";
+const strArray = inputNumber.split('');
+console.log(strArray) // ["2", "5", "1", "4"]
+```
+or
+
+```
+const strArray = [...'sky is blue'];        
+console.log(strArray); // ["s", "k", "y", " ", "i", "s", " ", "b", "l", "u", "e"]
+```
