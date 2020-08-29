@@ -4,7 +4,7 @@ path : JavaScript reference > Standard built-in objects > String
 
 <br>
 
-<h4>String.prototype.charAt()</h4>
+<h3>String.prototype.charAt()</h3>
 - charAt() 메소드는 문자열에서 특정 인덱스에 위치하는 유니코드 단일 문자를 반환한다.<br>
 
 <h4>Project : 끝말잇기</h4>
@@ -27,7 +27,7 @@ console.log(answerFirstChar); // '무'
 
 <br>
 
-<h4>String.prototype.replace()</h4>
+<h3>String.prototype.replace()</h3>
 - replace() 메소드는 주어진 패턴에 일치하는 일부 또는 모든 부분이 교체된 새로운 문자열을 반환.<br>
 
 <h4>Project : 끝말잇기(점수판)</h4>
@@ -51,7 +51,7 @@ paintScore(-50); // '점수 : 50'
 
 <br />
 
-<h4>String.prototype.split()</h4>
+<h3>String.prototype.split()</h3>
 .split() 메소드는 String 객체를 지정한 구분자를 이용하여 여러개의 문자열로 나눈다. <br />
 
 <h4>Project : Bulls and Cows</h4>
@@ -67,4 +67,19 @@ or
 ```
 const strArray = [...'sky is blue'];        
 console.log(strArray); // ["s", "k", "y", " ", "i", "s", " ", "b", "l", "u", "e"]
+```
+
+<br />
+
+<h3>String.prototype.substring()</h3>
+.substring() 메소드는 string 객체의 시작 인덱스로부터 종료 인덱스 전 까지 문자열의 부분 문자열을 반환한다. <br />
+
+```
+// 입력한 번호 끝에서부터 지우기.
+const deleteBtn = document.querySelector('.delete');
+deleteBtn.addEventListener('click', () => {
+	let numberChange = paintNumber.textContent;
+	numberChange = numberChange.substring(0, numberChange.length - 1);
+	paintNumber.textContent = numberChange;
+}
 ```
