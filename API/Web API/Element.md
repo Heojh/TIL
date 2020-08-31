@@ -42,3 +42,18 @@ offset().top;
 // 요소의 왼쪽에서 부터의 거리 좌표
 offset().left;
 ```
+
+<br />
+
+<h3>.getBoundingClientRect()</h3>
+element의 크기와 뷰포트를 기준으로 한 위치를 반환한다. <br />
+
+```
+const field = document.querySelector('.game__field');
+const fieldRect = field.getBoundingClientRect();
+// When the starting point is (0,0)
+const xStart = 0;
+const xEnd = fieldRect.width;
+const yStart = 0;
+const yEnd = fieldRect.height;
+```
