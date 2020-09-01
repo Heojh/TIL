@@ -57,3 +57,27 @@ const xEnd = fieldRect.width;
 const yStart = 0;
 const yEnd = fieldRect.height;
 ```
+
+<br />
+
+<h3>.matches()</h3>
+.matched() 메서드는 제공된 selectorString에 의해 요소가 선택되는지 점검한다.
+```
+function onFieldClick(event) {
+    if(!started) {
+        return
+    }
+    const target = event.target;
+    if(target.matches('.carrot')) {
+        target.remove();
+        score ++;
+        playSound(carrotSound);
+        updateScoreBoard();
+        if (score === CARROT_COUNT) {
+            finishGame(true);
+        }
+    } else if(target.matches('.bug')) {
+        finishGame(false);
+    }
+}
+```
