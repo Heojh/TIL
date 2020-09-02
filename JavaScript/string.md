@@ -83,3 +83,16 @@ deleteBtn.addEventListener('click', () => {
 	paintNumber.textContent = numberChange;
 }
 ```
+
+<br />
+
+<h3>String.prototype.concat()</h3>
+.concat() 메소드는 매개변수로 전달된 모든 문자열을 호출 문자열에 붙인 새로운 문자열을 반환한다. <br />
+
+```
+const strFirst = 'Hello';
+const strSecond = 'World';
+
+console.log(strFirst.concat(' ', strSecond); // Hello World
+console.log(strSecond.concat(', ', strFirst); // World, Hello
+```
