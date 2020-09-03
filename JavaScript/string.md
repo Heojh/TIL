@@ -1,6 +1,14 @@
 String
 -
-path : JavaScript reference > Standard built-in objects > String
+path : JavaScript reference > Standard built-in objects > String <br />
+
+List
+- .charAt()
+- .replace()
+- .split()
+- .substring()
+- .concat()
+- .includes()
 
 <br>
 
@@ -95,4 +103,14 @@ const strSecond = 'World';
 
 console.log(strFirst.concat(' ', strSecond); // Hello World
 console.log(strSecond.concat(', ', strFirst); // World, Hello
+```
+
+<br />
+
+<h3>String.prototype.includes()</h3>
+.includes() 메서드는 배열이 특정 요소를 포함하고 있는지 판별한다.
+
+```
+const isEmail = email => email.includes('@');
+consoel.log(isEmail('heojh@github.com')); // true
 ```
