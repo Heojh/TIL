@@ -9,6 +9,7 @@ List
 - .substring()
 - .concat()
 - .includes()
+- .repeat()
 
 <br>
 
@@ -113,4 +114,15 @@ console.log(strSecond.concat(', ', strFirst); // World, Hello
 ```
 const isEmail = email => email.includes('@');
 consoel.log(isEmail('heojh@github.com')); // true
+```
+
+<br />
+
+<h3>String.prototype.repeat()</h3>
+.repeat() 메서드는 문자열을 주어진 횟수만큼 반복해 붙인 새로운 문자열을 반환한다.
+
+```
+const CC_NUMBER = '6060';
+const displayName = `${'****-'.repeat(3)}${CC_NUMBER}`;
+console.log(displayName); // ****-****-****-6060
 ```
