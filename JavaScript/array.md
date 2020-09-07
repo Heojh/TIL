@@ -59,4 +59,4 @@ Array.from(buttons).forEach(button => {
 
 <h4>Array.prototype.join()</h4>
 - .join() 메소드는 배열의 모든 요소를 연결해 하나의 문자열로 만든다. <br />
-- arr.join(각 요소를 구분할 문자열) 
+- arr.join(각 요소를 구분할 문자열)
