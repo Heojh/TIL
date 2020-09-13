@@ -52,7 +52,7 @@ Array.from(buttons).forEach(button => {
 
 <h4>.forEach() 와 .map()의 차이</h4>
 - .map()은 새로운 배열을 반환한다.
-- 원본 배열을 견경하고 싶지 않으면, .map()을 사용한다.
+- 원본 배열을 변경하고 싶지 않으면, .map()을 사용한다.
 - 단순히 배열을 반복할 필요가 있다면 .forEach()를 사용한다.
 
 <br />
