@@ -2,45 +2,46 @@ REST
 -
 
 #### Wiki :
-a way of providing interoperability between computer systems on the internet.
+a way of providing interoperability between computer systems on the internet. <br />
 👉 인터넷 상의 컴퓨터 시스템간에 상호 운용성을 제공하는 방법.
 
 #### History :
-**1991 | WEB**
-Q : 어떻게 인터넷에서 정보를 공유할 건인가?
+**1991 | WEB** <br />
+Q : 어떻게 인터넷에서 정보를 공유할 건인가? <br />
 A : 정보들을 하이퍼텍스트로 연결한다.
  - 표현방식 : HTML
  - 식별자 : URI
  - 전송방법 : HTTP
  
-**1994-1996 | HTTP/1.0**
-Roy T.Fielding : "How do I improve HTTP without breaking the Web?"
-👉 해결책 : HTTP Object Model
+**1994-1996 | HTTP/1.0** <br />
+Roy T.Fielding : "How do I improve HTTP without breaking the Web?" <br />
+👉 해결책 : HTTP Object Model <br />
 
-**1998 | Roy T.Fielding, Microsoft Research에서 발표**
-👉 REpresentational State Transfer : An Architectural Style for Distributed Hypermedia Interaction.
+**1998 | Roy T.Fielding, Microsoft Research에서 발표** <br />
+👉 REpresentational State Transfer : An Architectural Style for Distributed Hypermedia Interaction. <br />
 
-**2000 | REST**
-Roy T.Fielding, 박사 논문으로 발표
+**2000 | REST** <br />
+Roy T.Fielding, 박사 논문으로 발표 <br />
 👉 "Architectural Styles and the Design of Network-based Software Architectures"
 
 ---
 
 ### SOAP & REST
-**1998 | XML-RPC(1998)**
+**1998 | XML-RPC(1998)** <br />
 👉 Microsoft에서 발표한 원격으로 다른 시스템의 메소드를 호출 할 수 있는 프로토콜이며 추후 SOAP라고 불린다.
 
-**2000.2 | Salesforce API**
+**2000.2 | Salesforce API**  <br />
 👉 Salesforce 회사에서 공개한 API, 인터넷에서 거의 최초로 공개된 API라고 볼 수 있다.
  ❗ 너무 복잡해서 인기가 없었다.
 
-**2004.8 | flickr API**
+**2004.8 | flickr API**  <br />
 👉 4년 후 flickr에서 SOPA API와 REST API를 발표
 SOAP | REST
 ------------ | -------------
 복잡하다 | 단순하다
 규칙이 많다 | 규칙이 적다
 어렵다 | 쉽다
+
 ❗ SOAP는 인기가 갈수록 추락하고, REST는 인기가 급상승 한다.
 
 ---
@@ -60,7 +61,8 @@ SOAP | REST
 - cache
 - **uniform interface**
 - layered system
-- code-on-demand (optional) 👉 서버에서 코드를 클라이언트로 보내서 실행할 수 있어야 한다.(=JavaScript)
+- code-on-demand (optional) <br />
+👉 서버에서 코드를 클라이언트로 보내서 실행할 수 있어야 한다.(=JavaScript) <br />
 ❗ 대체로 오늘날의 REST API는 잘 지켜지고 있는데, 그 이유는 HTTP만 잘 따라도 uniform interface를 제외한 조건들은 충족되기 때문이다.
 
 ### Uniform Interface의 제약조건
@@ -98,8 +100,8 @@ SOAP | REST
 - Reminder : Roy T.Fielding이 HTTP와 URI 명세의 저자 중 한명이다.
 
 ### 결론 : REST는 성공했는가?
-- REST는 웹의 독립적 진화를 위해 만들어졌다. 👉 웹은 독립적으로 진화하고 있다.
-- 성공👍
+- REST는 웹의 독립적 진화를 위해 만들어졌다.
+- 웹은 독립적으로 진화하고 있다. (성공👍)
 
 ### REST API는?
 - REST API는 REST 아키텍쳐 스타일을 따라야한다.
